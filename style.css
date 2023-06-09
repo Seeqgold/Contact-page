@@ -7,15 +7,19 @@
 .background{
     height: 100vh;
     width:100%;
-   background: linear-gradient(0deg, rgba(21, 15, 34, 0.6), rgba(5, 11, 41, 0.6)), url("1686088626858.jpg");
+   background: linear-gradient(0deg, rgba(21, 15, 34, 0.6), rgba(5, 11, 41, 0.6)), url("1686088626830.jpg");
      /*background-image: url("1686088626858.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     filter: grayscale(40%);
-    
-    
+   
+}
+.form-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
 }
 h1{
     text-align: center;
@@ -27,12 +31,12 @@ h1{
 }
 form{
     width: 700px;
-    height: 48%;
+    height: 420px;
     background-color: white;
     border: none;
     border-radius: 10px;
     padding: 40px;
-    margin-left: 490px;
+    margin-left: 0px;
     margin-top: 5px;
 }
 input{
@@ -103,26 +107,31 @@ p, h3{
    
 }
 hr{
-    width: 35%;
+    width: 15%;
     margin-left: 540px;
     border: 1px solid coral;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 h2{
     color: white;
-    margin-left: 490px;
-    margin-top: 30px;
-    margin-bottom: 90px;
+    margin-left: 390px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     border: 2px solid;
     border-color: transparent transparent transparent coral ;
     padding-left: 15px;
+    font-size: 20px;
 
     
 }
-
+.media-container{
+    display: flex;
+    align-content: start;
+    justify-content: start;
+}
 .social-medias{
     color: white;
-    padding-left: 30px;
+    padding-left: 0px;
     padding-top: 20px;
     
 }
@@ -132,18 +141,19 @@ h2{
     height: 50px;
     background-color: transparent;
     position: absolute;
-    bottom:30px;
-    right:450px;
+    bottom: 12px;
+    right:350px;
     
 }
 /*responsiveness*/
-@media screen and (min-width:300px) and (max-width:360px){
+@media screen and (min-width:300px) and (max-width:350px){
 .background{
     height: 105%;
+    padding-bottom: 35px;
     }
 h1{
     font-size: 17px;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 20px;
     line-height: 1;
     letter-spacing: 1.5px;
@@ -152,7 +162,7 @@ form{
     width: 280px;
     height: 11%;
     padding: 20px;
-    margin-left: 20px;
+    margin-left: 0px;
     margin-top: 3px;
 }
 input{
@@ -191,6 +201,8 @@ button{
 }
 .flex{
     display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
    
 }
 hr{
@@ -198,19 +210,22 @@ hr{
     margin-left: 40px;
     margin-top: 30px;
 }
+
 h2{
     margin-left: 30px;
     margin-top: 20px;
-    margin-bottom: 40px;
-    font-size: 15px;
+    margin-bottom: 0px;
+    font-size: 16px;
     padding-left: 15px;
+    padding-bottom: 5px;
+
 
     
 }
-
 .social-medias{
     padding-left: 20px;
     padding-bottom: 10px;
+    margin-bottom: 50px;
     
     
 }
@@ -220,17 +235,476 @@ h2{
     height: 30px;
     background-color: transparent;
     position: absolute;
-    bottom:0px;
+    bottom:30px;
     right:50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 45px;
     
 }}
-@media screen and (min-width:1201px) and (max-width:1400px){
+@media screen and (min-width:360px) and (max-width:400px){
+    .background{
+        height: 100%;
+        padding-bottom: 34px;
+        }
+    h1{
+        font-size: 17px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        line-height: 1;
+        letter-spacing: 1.5px;
+    }
+    form{
+        width: 290px;
+        height: 470px;
+        padding: 23px;
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+       /* transition: all ease-in-out 1s;
+    }
+    form:hover{
+       transform: translateY(10px) scale(1.2);
+    }*/
+    input{
+        margin: 7px;
+        padding: 7px;
+        height: 40px;
+    }
+    #fullname, #lastname{
+        width: 234px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+
+    }
+    #email{
+        width: 234px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 4px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    #message{
+        width: 235px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+        padding: 8px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    button{
+        width:238px;
+        height: 37px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .icon{
+        margin-left: 170px;
+        margin-right: 150px;
+    }
+    .email, .contact{
+       margin-top: 50px;
+    }
+    .flex{
+        display: block;
+       
+    }
+    hr{
+        width: 75%;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+
+    
+}
+.social-medias{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.flexsocial{
+    margin-left: 100px;
+    width: 180px;
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    top: 840px;
+    right: 0px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+        
+    }}
+    
+@media screen and (min-width:401px) and (max-width:576px){
+    .background{
+        height: 100%;
+        padding-bottom: 34px;
+        }
+    h1{
+        font-size: 17px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        line-height: 1;
+        letter-spacing: 1.5px;
+    }
+    form{
+        width: 290px;
+        height: 11%;
+        padding: 23px;
+        margin-left: 0px;
+        margin-top: 4px;
+    }
+    input{
+        margin: 7px;
+        padding: 7px;
+        height: 40px;
+    }
+    #fullname, #lastname{
+        width: 234px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+
+    }
+    #email{
+        width: 234px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 4px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    #message{
+        width: 235px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+        padding: 8px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    button{
+        width:238px;
+        height: 37px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .icon{
+        margin-left: 199px;
+        margin-right: 100px;
+    }
+    .email, .contact{
+       margin-top: 50px;
+    }
+    .flex{
+        display: block;
+       
+    }
+    hr{
+        width: 75%;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    
+h2{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+
+    
+}
+.social-medias{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+    
+    
+}
+.flexsocial{
+    margin-left: 100px;
+    width: 180px;
+    height: 70px;
+    background-color: transparent;
+    position: absolute;
+    top: 790px;
+    right:50px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+        
+    }
+}
+      
+@media screen and (min-width:768px) and (max-width:799px){
+    .background{
+        height: 100vh;
+        padding-bottom: 0px;
+        }
+    h1{
+        font-size: 28px;
+        padding-top: 49px;
+        padding-bottom: 29px;
+        line-height: 1;
+        letter-spacing: 1.5px;
+    }
+    form{
+        width: 475px;
+        height: 500px;
+        padding: 40px;
+        margin-left: 0px;
+        margin-top: 7px;
+    }
+    input{
+        margin: 7px;
+        padding: 7px;
+        height: 40px;
+    }
+    #fullname, #lastname{
+        width: 394px;
+        margin-left: 5px;
+        margin-right: 5px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+
+    }
+    #email{
+        width: 394px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 4px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    #message{
+        width: 395px;
+        margin-top: 5px;
+        margin-bottom: 4px;
+        margin-left: 5px;
+        padding: 8px;
+        border: 1px solid rgb(109, 97, 97, 05);
+        
+    }
+    button{
+        width:398px;
+        height: 37px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+    .icon{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .email, .contact{
+       margin-top: 30px;
+    }
+    .flex{
+        display: flex;
+        gap: 180px;
+       
+    }
+    hr{
+        width: 65%;
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+h3, p {
+    font-size: 22px;
+}
+    
+h2{
+    margin-left: 120px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    padding-left: 15px;
+    padding-bottom: 1px;
+
+
+    
+}
+.social-medias{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+.fa-facebook{
+    width: 28px;
+    height: 28px;
+}
+.fa-instagram{
+    width: 28px;
+    height: 28px;
+}
+.fa-linkedin{
+    width: 28px;
+    height: 28px;
+}
+
+.fa-twitter{
+    width: 28px;
+    height: 28px;
+}
+.flexsocial{
+    margin-left: 100px;
+    background-color: transparent;
+    top: 845px;
+    right:110px;
+    padding-top: 12px;
+    padding-bottom: 0px;
+        
+    }}
+     
+    @media screen and (min-width:800px) and (max-width:1100px) {
+        .background{
+            height: 100vh;
+            padding-bottom: 0px;
+            }
+        h1{
+            font-size: 32px;
+            padding-top: 59px;
+            padding-bottom: 49px;
+            line-height: 1;
+            letter-spacing: 1.5px;
+        }
+        form{
+            width: 483px;
+            height: 510px;
+            padding: 40px;
+            margin-left: 0px;
+            margin-top: 15px;
+        }
+        input{
+            margin: 8px;
+            padding: 7px;
+            height: 40px;
+        }
+        #fullname, #lastname{
+            width: 394px;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: 1px solid rgb(109, 97, 97, 05);
+            
+    
+        }
+        #email{
+            width: 394px;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 5px;
+            border: 1px solid rgb(109, 97, 97, 05);
+            
+        }
+        #message{
+            width: 395px;
+            margin-top: 5px;
+            margin-bottom: 4px;
+            margin-left: 5px;
+            padding: 8px;
+            border: 1px solid rgb(109, 97, 97, 05);
+            
+        }
+        button{
+            width:398px;
+            height: 37px;
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+        .icon{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .email, .contact{
+           margin-top: 59px;
+        }
+        .flex{
+            display: flex;
+            gap: 180px;
+           
+        }
+        hr{
+            width: 65%;
+            margin-left: 140px;
+            margin-top: 50px;
+        }
+    h3, p {
+        font-size: 22px;
+    }
+        
+    h2{
+        margin-left: 120px;
+        margin-bottom: 0px;
+        font-size: 23px;
+        padding-left: 15px;
+        padding-bottom: 1px;
+        padding-top: 9px;   
+    }
+    .social-medias{
+        padding-left: 30px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+    .fa-facebook{
+        width: 28px;
+        height: 28px;
+    }
+    .fa-instagram{
+        width: 28px;
+        height: 28px;
+    }
+    .fa-linkedin{
+        width: 28px;
+        height: 28px;
+    }
+    
+    .fa-twitter{
+        width: 28px;
+        height: 28px;
+    }
+    .flex{
+        margin-top: 3px;
+    }
+    .flexsocial{
+        margin-left: 100px;
+        background-color: transparent;
+        right:110px;
+        padding-top: 12px;
+        padding-bottom: 0px;
+        top: 895px;
+        position: absolute ;
+            
+        }}
+    
+@media screen and (min-width:1110px) and (max-width:2400px){
+    .background{ padding-bottom: 0vh;
+        height: auto;
+         }
 form{
     width: 700px;
-    height: 51%;
-    margin-left: 290px;
+    height: 420px;
+    margin-left: 0px;
+    transition: all ease-in-out 1s;
+   
+}
+#message{
+    border: 1px solid rgb(109, 97, 97, 05);
+    margin-bottom: 6px;
+        
 }
 input{
     margin: 4px;
@@ -240,11 +714,16 @@ input{
     width: 300px;
     margin-left: 3px;
     margin-right: 3px;
-    padding-bottom: 5px;
+    margin-bottom: 6px;
     height: 40px;
+    border: 1px solid rgb(109, 97, 97, 05);
+        
 }
 #email{
+    margin-bottom: 6px;
     height: 40px;
+    border: 1px solid rgb(109, 97, 97, 05);
+        
 
 }
 .icon{
@@ -262,34 +741,53 @@ input{
 }
 
 hr{
-    width: 55%;
+    width: 45%;
     margin-left: 340px;
     border: 1px solid coral;
-    margin-top: 30px;
+    margin-top: 28px;
 }
 h2{
     margin-left: 290px;
     margin-top: 10px;
     padding-left: 18px;
-    padding-bottom: 0;
+    padding-bottom: 30;
     margin-bottom: 90px;
-
-    
+    font-size: 18px;   
 }
 
+.fa-facebook{
+    width: 28px;
+    height: 28px;
+}
+.fa-instagram{
+    width: 28px;
+    height: 28px;
+}
+.fa-linkedin{
+    width: 28px;
+    height: 28px;
+}
+
+.fa-twitter{
+    width: 28px;
+    height: 28px;
+}
+
+form:hover{
+    transform: scaleX(1.5);}
 .social-medias{
     color: white;
-    padding-left: 40px;
-    padding-top: 8px;
+    padding-left: 20px;
+    padding-top: 5px;
     
 }
 .flexsocial{
-    margin-left: 10px;
+    margin-left: 0px;
     width: 280px;
     height: 50px;
     background-color: transparent;
     position: absolute;
-    bottom: 30px;
-    right:200px;
+    top: 690px;
+    right: 200px;
     
 }}

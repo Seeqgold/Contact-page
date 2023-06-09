@@ -772,9 +772,6 @@ h2{
     width: 28px;
     height: 28px;
 }
-
-form:hover{
-    transform: scaleX(1.5);}
 .social-medias{
     color: white;
     padding-left: 20px;

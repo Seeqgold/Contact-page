@@ -7,13 +7,14 @@
 .background{
     height: 100vh;
     width:100%;
-   background: linear-gradient(0deg, rgba(21, 15, 34, 0.6), rgba(5, 11, 41, 0.6)), url("1686088626830.jpg");
+   background: linear-gradient(0deg, rgba(21, 15, 34, 0.9), rgba(5, 11, 41, 0.9)), url("1686088626830.jpg");
      /*background-image: url("1686088626858.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     filter: grayscale(40%);
+    
    
 }
 .form-container{
@@ -31,10 +32,10 @@ h1{
 }
 form{
     width: 700px;
-    height: 420px;
+    height: 385px;
     background-color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 40px;
     margin-left: 0px;
     margin-top: 5px;
@@ -42,20 +43,30 @@ form{
 input{
     margin: 4px;
     padding: 7px;
+    
 }
 #fullname, #lastname{
     width: 301px;
     margin-left: 3px;
     margin-right: 3px;
+    border-radius: 14px;
+    border: 1px solid rgb(109, 97, 97, 05);
+        
 }
 #email{
     width: 613px;
+    border-radius: 14px;
+    border: 1px solid rgb(109, 97, 97, 05);
+        
 
 }
 #message{
     width: 613px;
     margin: 4px;
     padding: 8px;
+    border-radius: 14px;
+    border: 1px solid rgb(109, 97, 97, 05);
+        
 }
 button{
     width:613px;
@@ -66,6 +77,11 @@ button{
     color: white;
     margin-left: 3px;
     margin-right: 3px;
+    border-radius: 14px;
+}
+button:hover{
+    color: black;
+    cursor: pointer;
 }
 .icon{
     width: 35px;
@@ -74,11 +90,17 @@ button{
     color: white;
     border: none;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 12px;
     margin-left: 70px;
     margin-right: 70px;
+    
 }
 .email, .contact{
    text-align: center;
+   margin-bottom: 6px;
 }
 .fa-envelope{
     width: 25px;
@@ -95,6 +117,7 @@ button{
 }
 p, h3{
     color: white;
+    margin-bottom: 5px;
 }
 .flex{
    
@@ -107,16 +130,17 @@ p, h3{
    
 }
 hr{
-    width: 15%;
-    margin-left: 540px;
+    width: 45%;
+    margin-left: 450px;
     border: 1px solid coral;
-    margin-top: 40px;
+    margin-top: 28px;
+    margin-bottom: 10px;
 }
 h2{
     color: white;
     margin-left: 390px;
     margin-top: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 5px;
     border: 2px solid;
     border-color: transparent transparent transparent coral ;
     padding-left: 15px;
@@ -131,9 +155,8 @@ h2{
 }
 .social-medias{
     color: white;
-    padding-left: 0px;
-    padding-top: 20px;
-    
+    padding-left: 45px;
+    padding-top: 5px;
 }
 .flexsocial{
     margin-left: 300px;
@@ -160,7 +183,7 @@ h1{
 }
 form{
     width: 280px;
-    height: 11%;
+    height: 12%;
     padding: 20px;
     margin-left: 0px;
     margin-top: 3px;
@@ -174,17 +197,20 @@ input{
     width: 236px;
     margin-left: 5px;
     margin-right: 5px;
+    border: 1px solid rgb(109, 97, 97, 05);
 }
 #email{
     width: 236px;
     margin-left: 5px;
     margin-right: 5px;
     margin-top: 5px;
+    border: 1px solid rgb(109, 97, 97, 05);
 }
 #message{
     width: 236px;
     margin: 7px;
     padding: 8px;
+    border: 1px solid rgb(109, 97, 97, 05);
 }
 button{
     width:236px;
@@ -255,7 +281,7 @@ h2{
     }
     form{
         width: 290px;
-        height: 470px;
+        height: 433px;
         padding: 23px;
         margin-left: 0px;
         margin-top: 4px;
@@ -302,8 +328,8 @@ h2{
         margin-right: 4px;
     }
     .icon{
-        margin-left: 170px;
-        margin-right: 150px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .email, .contact{
        margin-top: 50px;
@@ -330,14 +356,14 @@ h2{
     
 }
 .social-medias{
-    padding-left: 20px;
+    padding-left: 27px;
     padding-bottom: 10px;
     margin-bottom: 50px;
 }
 
 .flexsocial{
     margin-left: 100px;
-    width: 180px;
+    width: 199px;
     height: 70px;
     background-color: transparent;
     position: absolute;
@@ -361,8 +387,8 @@ h2{
         letter-spacing: 1.5px;
     }
     form{
-        width: 290px;
-        height: 11%;
+        width: 291px;
+        height: 429px;
         padding: 23px;
         margin-left: 0px;
         margin-top: 4px;
@@ -404,8 +430,8 @@ h2{
         margin-right: 4px;
     }
     .icon{
-        margin-left: 199px;
-        margin-right: 100px;
+        margin-left: 182px;
+        margin-right: 90px;
     }
     .email, .contact{
        margin-top: 50px;
@@ -444,7 +470,7 @@ h2{
     height: 70px;
     background-color: transparent;
     position: absolute;
-    top: 790px;
+    top: 835px;
     right:50px;
     padding-top: 10px;
     padding-bottom: 45px;
@@ -466,7 +492,7 @@ h2{
     }
     form{
         width: 475px;
-        height: 500px;
+        height: 468px;
         padding: 40px;
         margin-left: 0px;
         margin-top: 7px;
@@ -508,8 +534,8 @@ h2{
         margin-right: 4px;
     }
     .icon{
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .email, .contact{
        margin-top: 30px;
@@ -561,7 +587,7 @@ h2{
     height: 28px;
 }
 .flexsocial{
-    margin-left: 100px;
+    margin-left: 110px;
     background-color: transparent;
     top: 845px;
     right:110px;
@@ -584,7 +610,7 @@ h2{
         }
         form{
             width: 483px;
-            height: 510px;
+            height: 471px;
             padding: 40px;
             margin-left: 0px;
             margin-top: 15px;
@@ -626,8 +652,8 @@ h2{
             margin-right: 4px;
         }
         .icon{
-            margin-left: 50px;
-            margin-right: 50px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .email, .contact{
            margin-top: 59px;
@@ -680,23 +706,23 @@ h2{
         margin-top: 3px;
     }
     .flexsocial{
-        margin-left: 100px;
+        margin-left: 110px;
         background-color: transparent;
         right:110px;
         padding-top: 12px;
         padding-bottom: 0px;
-        top: 895px;
+        top: 880px;
         position: absolute ;
             
         }}
     
-@media screen and (min-width:1110px) and (max-width:2400px){
+@media screen and (min-width:1110px) and (max-width:1500px){
     .background{ padding-bottom: 0vh;
         height: auto;
          }
 form{
     width: 700px;
-    height: 420px;
+    height: 405px;
     margin-left: 0px;
     transition: all ease-in-out 1s;
    
@@ -745,13 +771,14 @@ hr{
     margin-left: 340px;
     border: 1px solid coral;
     margin-top: 28px;
+    margin-bottom: 10px;
 }
 h2{
     margin-left: 290px;
     margin-top: 10px;
     padding-left: 18px;
-    padding-bottom: 30;
-    margin-bottom: 90px;
+    padding-bottom: 5px;
+    margin-bottom: 105px;
     font-size: 18px;   
 }
 
@@ -774,17 +801,18 @@ h2{
 }
 .social-medias{
     color: white;
-    padding-left: 20px;
+    padding-left: 45px;
     padding-top: 5px;
+    
     
 }
 .flexsocial{
     margin-left: 0px;
-    width: 280px;
-    height: 50px;
+    width: 360px;
+    height: 150px;
     background-color: transparent;
     position: absolute;
-    top: 690px;
-    right: 200px;
+    top: 711px;
+    left: 600px;
     
 }}
